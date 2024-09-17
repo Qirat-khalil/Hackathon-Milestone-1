@@ -1,0 +1,51 @@
+body{
+    background-color: rgb(238, 247, 247);
+    margin: auto;
+    padding: 50px;
+  
+}
+h1{
+    text-align: center;
+}
+
+#container{
+    display: flex;
+    width: 50%;
+    margin: auto;
+ border: solid black;
+ height: 80vh;
+ justify-content: center;
+ 
+
+}
+#left-section{
+    background-color: rgb(103, 105, 99);
+    width: 80%;
+    padding: 60px;
+
+
+}
+#right-section{
+    background-color: brown;
+    width: 80%;
+    padding: 60px;
+    
+}
+img{
+    background-image: url("profile.jpg");
+    background-size: cover;
+    height:150px;
+    width: 150px;
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+button:hover{
+    background-color: rgb(122, 122, 240);
+}
+
+button{
+    margin-top: 10px;
+}
+
+
